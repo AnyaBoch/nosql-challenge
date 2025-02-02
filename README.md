@@ -4,10 +4,12 @@
 The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
 **Part 1: Database and Jupyter Notebook Set Up**
+
 I created database **uk-food** and installed collection **establishments**
 mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
 
 **Part 2: Update the Database**
+
 I successfully updated collection with a new restaurant by the name "Penang Flavours" and updated its BusinessTypeID;
 All the establishments within the Dover Local Authority were removed from the database;
 Data types were checked and updated;
